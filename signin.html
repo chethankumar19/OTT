@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+        img{
+            height: 90px;
+            width: 100px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+        h1{
+            display: inline;
+            position: absolute;
+            left: 600px;
+            color: black;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            opacity: 0.9;
+            font-family: 'Kanit', sans-serif;
+        }
+        .sign{
+            height: 400px;
+            width: 100%;
+            color:black;
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="LOGo.jpg" alt=""> 
+    <h1>My OTT</h1>
+    <div class="sign">
+        <table border="1" cellspacing="20" cellpadding="10" align="center" style="text-align:center;border-collapse: collapse;">
+            <tr>
+                <td><label for= "name">First Name</label></td><td><input type="text" name="" id="name" placeholder="Name" required></td>
+            </tr>
+            <tr>
+                <td><label for= "lname">Last Name</label></td><td><input type="text" name="" id="lname" placeholder="LastName"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth</label></td><td><input type="datetime-local" name="" id="dob" placeholder="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for= "num">Phone Number</label></td><td><input type="tel" name="" id="num" placeholder="+919*********"required></td>
+            </tr>
+            <tr>
+                <td><label for= "email">Email ID</label></td><td><input type="email" name="" id="email" placeholder="abc@gmail.com"required></td>
+            </tr>
+            <tr>
+                <td>Choose Gender<td><br>
+            </tr>
+            <tr></tr>
+                <td><input type="radio" name="gender" id="male"><label for="male">Male</label></td>
+                <td><input type="radio" name="gender" id="female"><label for="female">Female</label></td>
+                <td><input type="radio" name="gender" id="others"><label for="others">Others</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="acc" id="acce"><label for="acce">Accepted terms and condition</label></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="SignIn"></td>
+            </tr>
+            <tr>
+                <td>Already have an account?<input type="button" value="LogIn" href="login.html"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
